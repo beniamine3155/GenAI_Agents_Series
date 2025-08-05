@@ -32,9 +32,10 @@ Each subfolder corresponds to an individual agent-based GenAI project.
 ```
 GenAI_Agents_Series/
 │
-├── 01_Data_Analysis_Agent/
-├── 02_Your_Next_Project_Name/
-├── 03_Upcoming_Project/
+├── 01_Simple_Data_Analyzer/
+├── 02_
+├── 
+├── 
 │
 ├── .env
 ├── .gitignore
