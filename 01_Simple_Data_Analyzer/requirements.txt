@@ -1,0 +1,11 @@
+langchain
+langchain_openai
+langgraph
+langchain_community
+numpy
+pandas
+os
+dotenv
+langchain_experimental
+
+
