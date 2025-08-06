@@ -1,0 +1,8 @@
+pymongo
+datetime
+os
+re
+json
+typing
+langchain
+langchain_core
