@@ -14,14 +14,14 @@ students = [
         "name": "Alice Johnson",
         "student_id": "20231230",
         "department": "Computer Science",
-        "cgpa": 3.82,
+        "cgpa": 3.12,
         "graduation_year": 2024
     },
     {
         "name": "Bob Smith",
         "student_id": "20231231",
         "department": "Electrical Engineering",
-        "cgpa": 3.55,
+        "cgpa": 3.15,
         "graduation_year": 2023
     },
     {
@@ -49,7 +49,7 @@ students = [
         "name": "Farhan Ahmed",
         "student_id": "20231235",
         "department": "Data Science",
-        "cgpa": 3.88,
+        "cgpa": 2.88,
         "graduation_year": 2025
     },
     {
