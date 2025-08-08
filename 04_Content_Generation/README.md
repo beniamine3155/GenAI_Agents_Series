@@ -31,7 +31,6 @@ The app uses a structured prompt template to send detailed instructions to a lan
 - **LangChain** for advanced prompt management
 - **LLMs** (OpenAI GPT, HuggingFace Transformers, etc.) for generating content
 
-
 ## 📦 Installation
 
 1. **Clone the repository**
@@ -41,3 +40,13 @@ git clone https://github.com/beniamine3155/GenAI_Agents_Series.git
 cd GenAI_Agents_Series
 cd 04_Content_Generation
 streamlit run app.py
+```
+### 🖼️ Screenshots
+
+#### Home Interface
+
+![Home Interface](images/homepage.png)
+
+#### Generated Content Preview
+
+![Generated Content](images/generated_content.png)
