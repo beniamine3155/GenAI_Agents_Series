@@ -31,17 +31,20 @@ if st.button("Analyze Campaigns"):
         fig4 = px.pie(df, values="Spend", names="Campaign", title="Spend Distribution by Campaign")
         st.plotly_chart(fig4, use_container_width=True)
 
+    col1, col2 = st.columns(2)
     # Channel-wise average ROAS
-    avg_roas = df.groupby("Channel")["ROAS"].mean().reset_index()
-    fig5 = px.bar(avg_roas, x="Channel", y="ROAS", title="Average ROAS by Channel", color="Channel")
-    st.plotly_chart(fig5, use_container_width=True)
+    with col1:
+        avg_roas = df.groupby("Channel")["ROAS"].mean().reset_index()
+        fig5 = px.bar(avg_roas, x="Channel", y="ROAS", title="Average ROAS by Channel", color="Channel")
+        st.plotly_chart(fig5, use_container_width=True)
 
     # Correlation heatmap
-    st.subheader("📌 Correlation Between Metrics")
-    corr = df[["CTR", "CPC", "ROAS", "Spend"]].corr()
-    fig6, ax = plt.subplots()
-    sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
-    st.pyplot(fig6)
+    with col2:
+        st.subheader("📌 Correlation Between Metrics")
+        corr = df[["CTR", "CPC", "ROAS", "Spend"]].corr()
+        fig6, ax = plt.subplots()
+        sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax)
+        st.pyplot(fig6)
 
     # GPT Insights
     st.subheader("🧠 GPT Optimization Suggestions")
