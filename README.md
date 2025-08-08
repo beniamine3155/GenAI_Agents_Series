@@ -33,7 +33,8 @@ Each subfolder corresponds to an individual agent-based GenAI project.
 GenAI_Agents_Series/
 │
 ├── 01_Simple_Data_Analyzer/
-├── 02_
+├── 02_Customer_Support_Agent/
+├── 03_Mongodb_Agent/
 ├── 
 ├── 
 │
@@ -41,7 +42,7 @@ GenAI_Agents_Series/
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
-└── venv/
+└── agent_venv/
 ```
 
 ## How to Use
