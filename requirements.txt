@@ -3,6 +3,9 @@ langchain_openai
 langgraph
 langchain_community
 streamlit
+pypdf
+faiss-cpu
+tiktoken
 
 
 
