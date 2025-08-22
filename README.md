@@ -33,9 +33,11 @@ Each subfolder corresponds to an individual agent-based GenAI project.
 GenAI_Agents_Series/
 │
 ├── 01_Simple_Data_Analyzer/
-├── 02_Customer_Support_Agent/
+├── 02_Multi_Agent_Math_Solver/
 ├── 03_Mongodb_Agent/
-├── 
+├── 04_Content_Generation/
+├── 05_Campaign_Optimization/
+├── 06_AI_Search_Agent/
 ├── 
 │
 ├── .env
