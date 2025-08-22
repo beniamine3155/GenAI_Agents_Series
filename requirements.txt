@@ -6,6 +6,6 @@ streamlit
 pypdf
 faiss-cpu
 tiktoken
-
+graphviz
 
 
